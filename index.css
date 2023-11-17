@@ -1,0 +1,181 @@
+@font-face {
+    font-family: cursedTimer;
+    src: url(digital-7.ttf);
+  }
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    min-width: none;
+    max-height: 100%;
+    min-width: none;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/Bcourt.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    color: ghostwhite;
+    text-shadow: 3px 3px 2px black;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 1px;
+}
+
+
+.hero-utility{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#hero-title {
+    font-weight: 700;
+    font-size: 60px;
+    width: 149px;
+    height: 100px;
+}
+.title-text{
+    margin: 0 50px;
+}
+
+
+
+#hero-quarter{
+    font-family: cursedTimer;
+    align-items: center;
+    margin: 0 0 30px;
+    height: 40px;
+    font-size: 40px;
+    border: 1px double black;
+    border-radius: 5px;
+}
+.quarter-btn{
+    font-size: 40px;
+    font-weight: bolder;
+    color: yellow;
+    text-shadow: 2px 2px 1px black;
+    margin: 0 5px;
+    background-color: transparent;
+    border: none;
+
+}
+.pressed-quarter-btn{
+    font-size: 40px;
+    font-weight: bolder;
+    color: red;
+    text-shadow: 2px 2px 1px black;
+    margin: 0 5px;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+#hero-main {
+    justify-content: center;
+    font-family: cursedTimer;
+}
+.score-scrn1 {
+    color: ghostwhite;
+    text-shadow:0 0 3px #132128;
+    max-width: 100px;
+    min-width: 100px;
+    height: 120px;
+    margin: 0 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 35px 60px 0;
+    font-size: 75px;
+    background-image: url(images/fireball.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.score-scrn {
+    color: ghostwhite;
+    text-shadow:0 0 3px #132128;
+    max-width: 100px;
+    min-width: 100px;
+    height: 120px;
+    margin: 0 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 35px 60px 0;
+    font-size: 75px;
+    background-image: url(https://media.giphy.com/media/GPT8Cn2scDlR1qKgt3/giphy.gif);
+    background-color: black;
+    background-size: 35%;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+#foul-count {
+    width: 150px;
+    height: 45px;
+}
+.foul-text {
+    margin: 10px 200px 20px 45px;
+    font-size: 20px;
+    color: white;
+    text-shadow:inherit;
+}
+.foul-untick{ 
+    text-align: center;
+    position:relative;
+    color: red;
+    height: 30px;
+    width: 25px;
+    bottom: 42px;
+    left: 5px;
+    background-color: transparent;
+    border:transparent;
+}
+
+
+.newG-btn{
+    text-align: center;
+    color: inherit;
+    text-shadow:inherit;
+    background-image: conic-gradient(#ffb600,#ff4800);
+    margin: 20px 0;
+    width: 100px;
+    height: 30px;
+}
+.score-btns{
+    margin: 20px 20px 0 40px;;
+    width: 150px;
+    height: 55px;
+}
+.btn-left{
+    text-align: center;
+    color: inherit;
+    text-shadow:inherit;
+    background-color: #ffaa00;
+    width: 30px;
+    height: 30px;
+}
+.btn-right{
+    text-align: center;
+    color: inherit;
+    text-shadow:inherit;
+    background-color: #ff5400;
+    width: 30px;
+    height: 30px;
+}

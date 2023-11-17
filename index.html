@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="hero-title" class="hero-utility">
+                <h3 class="title-text">HOME</h3>
+                <h3 class="title-text">GUEST</h3>
+            </div>
+
+        <div id="hero-quarter" class="hero-utility" >
+                <h3>Period:</h3>
+                <div id="q1-btn">
+                    <button class="quarter-btn" onclick="btnChange()">I</button>
+                </div>
+
+                <div id="q2-btn">
+                    <button class="quarter-btn" onclick="btnChange2()">II</button>
+                </div>
+
+                <div id="q3-btn">
+                    <button class="quarter-btn" onclick="btnChange3()">III</button>
+                </div>
+
+                <div id="q4-btn">
+                <button class="quarter-btn" onclick="btnChange4()">IV</button>
+                </div>
+
+        </div>
+
+
+        <div id="hero-main" class="hero-utility" >
+                <span id="home-score" class="score-scrn">0</span>
+                <span id="guest-score" class="score-scrn">0</span>
+        </div>
+
+
+        <div id="foul-count" class="hero-utility">
+                <div>
+                    <h4 class=" foul-text">Fouls:</h4>
+                    <button id="foul-one" class="foul-untick" onclick="foulChange(foulOneEl)">⚫</button>
+                    <button id="foul-two" class="foul-untick" onclick="foulChange(foulTwoEl)">⚫</button>
+                    <button id="foul-three" class="foul-untick" onclick="foulChange(foulThreeEl)">⚫</button>
+                    <button id="foul-four" class="foul-untick" onclick="foulChange(foulFourEl)">⚫</button>
+                </div>
+                <div>
+                    <h4 class=" foul-text">Fouls:</h4>
+                    <button id="foul-1" class="foul-untick" onclick="foulChange(foul1El)">⚫</button>
+                    <button id="foul-2" class="foul-untick" onclick="foulChange(foul2El)">⚫</button>
+                    <button id="foul-3" class="foul-untick" onclick="foulChange(foul3El)">⚫</button>
+                    <button id="foul-4" class="foul-untick" onclick="foulChange(foul4El)">⚫</button>
+                </div>
+        </div>
+
+
+        <div id="hero-btns" class="hero-utility">
+                <div class="score-btns">
+                    <button class="btn-right" onclick="addHome(1,homeScoreEl)">+1</button>
+                    <button class="btn-right" onclick="addHome(2,homeScoreEl)">+2</button>
+                    <button class="btn-right" onclick="addHome(3,homeScoreEl)">+3</button>
+                </div>
+                <div >
+                    <button class="newG-btn" onclick="newGame()">New Game</button>
+                </div>
+                <div class=" score-btns">
+                    <button class="btn-left" onclick="addGuest(1,guestScoreEl)">+1</button>
+                    <button class="btn-left" onclick="addGuest(2,guestScoreEl)">+2</button>
+                    <button class="btn-left" onclick="addGuest(3,guestScoreEl)">+3</button>
+                </div>
+        </div>
+
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
